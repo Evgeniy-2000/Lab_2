@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="235dp" />
+
+    <fragment
+        android:id="@+id/keyboardExtended"
+        android:name="com.example.lab_2.Keyboard"
+        android:layout_width="match_parent"
+        android:layout_height="498dp" />
+</LinearLayout>
